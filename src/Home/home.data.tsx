@@ -15,6 +15,8 @@ export const menuItems = [
   { label: "Reviews", path: "/reviews" },
   { label: "Contact Us", path: "/contact" },
 ];
+
+// ??
 export const features = [
   {
     icon: <Image src={icon1} alt="image" height={100} width={100} />,
