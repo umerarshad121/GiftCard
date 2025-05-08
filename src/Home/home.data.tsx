@@ -82,3 +82,18 @@ export const occasions = [
       "An advanced and dynamic system for managing business events from small",
   },
 ];
+
+export const testimonials = [
+  {
+    quote: "DIGINET made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. DIGINET made my event planning so amazing, and I could track RSVPs in real time.",
+    author: "Mr. Johnne",
+  },
+  {
+    quote: "DIGINET made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. DIGINET made my event planning so amazing, and I could track RSVPs in real time.",
+    author: "Mr. Johnne",
+  },
+  {
+    quote: "DIGINET made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. DIGINET made my event planning so amazing, and I could track RSVPs in real time.",
+    author: "Mr. Johnne",
+  },
+];
