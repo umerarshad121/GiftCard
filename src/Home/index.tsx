@@ -178,21 +178,9 @@ const Home = () => {
                 }}
                 onClick={() => router.push("/register")}
               >
-                Registration
+                Credit Card Gifts 
               </Button>
-              <Button
-                variant="outlined"
-                sx={{
-                  borderColor: "#f28b82",
-                  color: "#f28b82",
-                  "&:hover": { borderColor: "#e57373", color: "#e57373" },
-                  px: { xs: 2, sm: 3 },
-                  py: 1,
-                }}
-                onClick={() => router.push("/information")}
-              >
-                Information
-              </Button>
+            
             </Box>
           </Box>
         </Box>

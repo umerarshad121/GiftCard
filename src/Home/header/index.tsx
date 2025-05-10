@@ -10,6 +10,8 @@ import {
 import React from "react";
 import { menuItems } from "../home.data";
 import { usePathname, useRouter } from "next/navigation";
+import logo from "../../assets/images/logo.png"
+import Image from "next/image";
 
 export const Header = () => {
   const theme = useTheme();
@@ -26,9 +28,7 @@ export const Header = () => {
         }}
       >
         <Box sx={{ display: "flex", alignItems: "center", width: "33.33%" }}>
-          <Typography variant="h6" sx={{ color: "#1e1e1e", fontWeight: 700 }}>
-            Logoipsum
-          </Typography>
+          <Image src={logo} alt='logo' width={100} height={100} />
         </Box>
 
         <Box
