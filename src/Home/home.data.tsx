@@ -7,6 +7,10 @@ import icon5 from "../assets/images/icon5.png";
 import icon6 from "../assets/images/icon6.png";
 import icon7 from "../assets/images/icon7.png";
 import icon8 from "../assets/images/icon8.png";
+import baby from "../assets/images/baby.jpg";
+import BirthdayP from "../assets/images/BirthdayP.jpg";
+import wedding from "../assets/images/wedding.jpg";
+import cardprofile from "../assets/images/cardprofile.png";
 
 export const menuItems = [
   { label: "Home", path: "/" },
@@ -69,17 +73,49 @@ export const features = [
 ];
 export const occasions = [
   {
-    title: "Business events",
+    title: "Wedding events",
+    image: (
+      <Image
+        src={wedding.src}
+        width={300}
+        height={150}
+        alt={"wedding event "}
+      />
+    ),
+    description:
+      "An advanced and dynamic system for managing business events from small",
+  },
+  {
+    title: "Birthday events",
+    image: (
+      <Image
+        src={BirthdayP.src}
+        alt={"wedding event "}
+        width={300}
+        height={150}
+      />
+    ),
+    description:
+      "An advanced and dynamic system for managing business events from small",
+  },
+  {
+    title: "Born Baby events",
+    image: (
+      <Image src={baby.src} alt={"wedding event "} width={300} height={150} />
+    ),
     description:
       "An advanced and dynamic system for managing business events from small",
   },
   {
     title: "Business events",
-    description:
-      "An advanced and dynamic system for managing business events from small",
-  },
-  {
-    title: "Business events",
+    image: (
+      <Image
+        src={cardprofile.src}
+        alt={"wedding event "}
+        width={300}
+        height={150}
+      />
+    ),
     description:
       "An advanced and dynamic system for managing business events from small",
   },
@@ -87,15 +123,18 @@ export const occasions = [
 
 export const testimonials = [
   {
-    quote: "DIGINET made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. DIGINET made my event planning so amazing, and I could track RSVPs in real time.",
+    quote:
+      "Event & Celebrate  made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. Event & Celebrate made my event planning so amazing, and I could track RSVPs in real time.",
     author: "Mr. Johnne",
   },
   {
-    quote: "DIGINET made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. DIGINET made my event planning so amazing, and I could track RSVPs in real time.",
+    quote:
+      "Event & Celebrate made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. Event & Celebrate made my event planning so amazing, and I could track RSVPs in real time.",
     author: "Mr. Johnne",
   },
   {
-    quote: "DIGINET made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. DIGINET made my event planning so amazing, and I could track RSVPs in real time.",
+    quote:
+      "Event & Celebrate made my event planning so much easier! The invitations looked amazing, and I could track RSVPs in real time. Event & Celebrate made my event planning so amazing, and I could track RSVPs in real time.",
     author: "Mr. Johnne",
   },
 ];

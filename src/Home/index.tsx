@@ -15,7 +15,7 @@ import {
   useTheme,
 } from "@mui/material";
 import Image from "next/image";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import card from "../assets/images/card.png";
 import giftcard from "../assets/images/giftcard.png";
 import cardprofile from "../assets/images/cardprofile.png";
@@ -86,7 +86,7 @@ const Home = () => {
                 py: 1,
               }}
             >
-              Confirm
+              Registration
             </Button>
           </Box>
           <Box
@@ -178,9 +178,8 @@ const Home = () => {
                 }}
                 onClick={() => router.push("/register")}
               >
-                Credit Card Gifts 
+                Credit Card Gifts
               </Button>
-            
             </Box>
           </Box>
         </Box>
@@ -210,7 +209,7 @@ const Home = () => {
               fontSize: { xs: "0.9rem", sm: "1rem" },
             }}
           >
-            At DIGINET, digital invitations are designed to fit your event
+            At Event & Celebrate, digital invitations are designed to fit your event
             perfectly
           </Typography>
           <Box
@@ -236,11 +235,15 @@ const Home = () => {
                 }}
               >
                 <CardContent>
-                  <Image
+                  <Box  >
+
+                    {occasion.image}
+                  </Box>
+                  {/* <Image
                     src={cardprofile}
                     alt="card profile"
                     style={{ maxWidth: "100%", height: "auto" }}
-                  />
+                  /> */}
                   <Typography
                     variant="h6"
                     sx={{
